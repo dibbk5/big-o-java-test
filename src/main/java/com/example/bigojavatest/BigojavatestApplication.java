@@ -14,6 +14,9 @@ public class BigojavatestApplication {
 		System.out.println(MissingNumber.missingNumber(newArray, 10));
 		System.out.println(MissingNumber.missingNumberSort(newArray, 10));
 		System.out.println(MissingNumber.missingNumberSum(newArray, 10));
+
+		System.out.println(DataStructures.balancedParentheses("((akfljdslka)"));
+		System.out.println(DataStructures.balancedBrackets("<((akfljdslka))>"));
 	}
 
 }
