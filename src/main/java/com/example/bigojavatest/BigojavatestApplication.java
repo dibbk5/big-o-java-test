@@ -17,6 +17,8 @@ public class BigojavatestApplication {
 
 		System.out.println(DataStructures.balancedParentheses("((akfljdslka)"));
 		System.out.println(DataStructures.balancedBrackets("<((akfljdslka))>"));
+
+		System.out.println(AlgorithmPractice.partition(newArray, 3, 5));
 	}
 
 }
